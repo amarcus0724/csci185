@@ -1,0 +1,26 @@
+body {
+    background-color: #F0F4EF;
+}
+header {
+    background-color: #b4cded;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+nav {
+    background-color: black; 
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+   
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+footer {
+   background-color: #344966; 
+   color: white
+}
