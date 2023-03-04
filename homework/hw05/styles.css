@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+/* Your CSS Code Here! */
+ul {
+    
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    list-style-type: none;
+    column-gap: 10px;
+    
+    justify-content: flex-end;
+    
+}
+header div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    background-color: #D7F9F1;
+}
+#profile-pic {
+    border-radius: 50%;
+ 
+}
+h1 {
+    text-align: center;
+    padding-bottom: 20px;
+    color: #40531B;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+
+a:link {
+    color: #40531B;
+    text-decoration: none;
+}
+ a:visited {
+    color: #40531B;
+    text-decoration: none;
+ }
+ h2 {
+    font-family: 'Ubuntu', sans-serif;
+ }
+ p, h3 {
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ #about {
+    padding: 40px;
+
+ }
+
+ #projects {
+    
+    background-color: lightgray;
+    padding: 100px;
+ }
+.project-holder {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    padding: 50px;
+    column-gap: 40px;
+    row-gap: 40px;
+}
+
+
+.card img {
+    width: 100%;
+}
+
+#contact {
+    padding: 50px;
+}
+.contact-details {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr) ;
+
+}
+#message, #name, #email {
+    background-color: lightgray;
+    margin: 10px;
+}
+#submit {
+    background-color: #40531B;
+    border-radius: 4px;
+    color: #D7F9F1;
+}
+footer {
+    background-color: lightgrey;
+    padding: 20px;
+    text-align: center;
+}
+
+@media screen and (max-width: 800px){
+
+ul {
+    
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    list-style-type: none;
+    column-gap: 10px;
+    
+    justify-content: center;
+    
+}
+.project-holder {
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+    padding: 50px;
+    column-gap: 40px;
+    row-gap: 40px;
+}
+.contact-details {
+    display: grid;
+    grid-template-columns: repeat(1, 2fr) ;
+    
+
+}
+
+}

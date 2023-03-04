@@ -1,0 +1,16 @@
+1. What corrections did you have to make? I had to make some contrast edits. 
+
+I had to make some contrast edits. I had to add labels to the forms. The pictures need alt text. 
+
+
+1. Do you think your website is usable if you turn off the CSS? Why or why not? 
+
+I dont think so. The layout would be hard to read and look at. I do think that contrast would be ok because everything would be in black and white 
+
+1. Is your site is tabbable? In other words, without the use of the mouse, are all the links and buttons accessible using the tab key?
+
+yes
+
+
+
+Reminder: don't forget to include a screenshot of your Wave report and link to it from your homepage!

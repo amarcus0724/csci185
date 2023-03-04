@@ -16,6 +16,7 @@ body {
   background-color: snow;
   margin: 0 auto;
   max-width: 1000px;
+
 }
 
 .item {
@@ -32,32 +33,138 @@ body {
 
 /* Task 3 */
 
-.task-3.container {
+.container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr; /* 25, 50 ,25*/
+  grid-template-rows: repeat(4, auto);
+  column-gap: 10px;
+  row-gap: 10px;
+  
 }
 
-.task-3 .header {
+.header {
+grid-row: 1 / 2;
+grid-column: 1 / 4;
+
 }
 
-.task-3 .navigation {
+.navigation {
+grid-row: 2 / 3;
+grid-column: 2 / 3;
 }
 
-.task-3 .ads {
+.ads {
+grid-row: 2 / 4;
+grid-column: 3 / 4
 }
 
-.task-3 .sidebar {
+.sidebar { 
+grid-row: 2 / 4;
+grid-column: 1 / 2;
 }
 
-.task-3 .main {
+.main {
+grid-row: 3 / 4;
+grid-column: 2 / 3 ;
+min-height: 70vh;
 }
 
-.task-3 .footer {
+.footer {
+grid-row: 4 / 4;
+grid-column: 1 / 4;
 }
 
+ 
 
 
-@media (max-width: 1020px) {
+@media screen and (max-width: 1020px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr; /* 25, 50 ,25*/
+    grid-template-rows: repeat(4, auto);
+    column-gap: 10px;
+    row-gap: 10px;
+    
+  }
+  
+  .header {
+  grid-row: 1 / 2;
+  grid-column: 1 / 4;
+  
+  }
+  
+  .navigation {
+  grid-row: 2 / 3;
+  grid-column: 1 / 4;
+  }
+  
+  .ads {
+  grid-row: 4 / 4;
+  grid-column: 1/ 2
+  }
+  
+  .sidebar { 
+  grid-row: 3 / 4;
+  grid-column: 1 / 2;
+  }
+  
+  .main {
+  grid-row: 3 / 4;
+  grid-column: 2 / 4 ;
+  min-height: 70vh;
+  }
+  
+  .footer {
+  grid-row: 4 / 4;
+  grid-column: 2 / 4;
+  }
+  
 }
+  
 
 
-@media (max-width: 720px) {
+
+
+@media screen and (max-width: 720px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr; /* 25, 50 ,25*/
+    grid-template-rows: repeat(7, auto);
+    column-gap: 10px;
+    row-gap: 10px;
+    
+  }
+  
+  .header {
+  grid-row: 1 / 2;
+  grid-column: 1 / 4;
+  
+  }
+  
+  .navigation {
+  grid-row: 2 / 3;
+  grid-column: 1 / 4;
+  }
+  
+  .ads {
+  grid-row: 6/ 7;
+  grid-column: 1 / 4
+  }
+  
+  .sidebar { 
+  grid-row: 4 / 4;
+  grid-column: 1 / 4;
+  }
+  
+  .main {
+  grid-row: 3 / 3;
+  grid-column: 1 / 4 ;
+  min-height: 70vh;
+  }
+  
+  .footer {
+  grid-row: 7 / 7;
+  grid-column: 1 / 4;
+  }
+  
 }
