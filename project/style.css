@@ -6,3 +6,21 @@ a :visited {
     color: black;
 }
 
+.item {
+    width: 200px;
+    height: 100px;
+    
+}
+.message {
+    display: none;
+
+}
+.message.show {
+display: block;
+padding: 50px;
+background-color: lightpink;
+position: absolute;
+top: 100px;
+left: 100px;
+}
+

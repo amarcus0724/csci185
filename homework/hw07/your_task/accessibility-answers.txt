@@ -1,0 +1,9 @@
+What corrections did you have to make, and how did you make them?
+I add alt tags to all of the images. To do that I had to go into the main.js and in the image tags I added alt tags using ${}
+I add a language tag. In the html I added it inside the html tag
+I add a aria lable. This went inside the html in the search class. 
+
+Is this interface functional without the use of a mouse (i.e., just using keyboard keys)? Why or why not?
+I believe so. 
+What are other accessibility tests or features you added or would be interested in learning about?
+I would be interested in learning more about how blind users navigate the internet. 
