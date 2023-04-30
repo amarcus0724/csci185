@@ -6,18 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+    <style>
+        .watering {
+            cursor: url('images/wateringcan.svg'), pointer;
+        }
+    </style>
     </head>
-    <body>
+    <body class="watering">
     <main>
         <h1>
             2. Water the Plants
         </h1>
-        <img src="images/plant1.png">
-        <img src="images/plant2.png">
-        <img src="images/plant3.png">
-        <img src="images/plant4.png">
-        <img src="images/plant5.png">
-        <img src="images/plant6.png">
+        <div class="plants">
+            <div class="plant1">
+        <img src="images/plant1.png" onclick="addPoint()">
+        </div>
+        <div class="plant2">
+        <img src="images/plant2.png" onclick="addPoint()">
+        </div>
+        <div class="plant3">
+        <img src="images/plant3.png" onclick="addPoint()">
+        </div>
+        <div class="plant4">
+        <img src="images/plant4.png" onclick="addPoint()">
+        </div>
+        <div class="plant5">
+        <img src="images/plant5.png" onclick="addPoint()">
+        </div>
+        <div class="plant6">
+        <img src="images/plant6.png" onclick="addPoint()">
+        </div>
+        </div>
         
 
 

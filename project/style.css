@@ -1,10 +1,10 @@
-a {
+/* a {
     text-decoration: none;
     color: black;
 }
 a :visited {
     color: black;
-}
+} */
 
 .item {
     width: 200px;
@@ -17,10 +17,191 @@ a :visited {
 }
 .message.show {
 display: block;
-padding: 50px;
-background-color: lightpink;
+
+width: 400px;
+height: 50x;
+background-color: #800000;
+color: white; 
+font-size: 50px;
+text-align: center;
+padding: 75px;
 position: absolute;
-top: 100px;
-left: 100px;
+top: 300px;
+left: 500px;
+}
+
+
+.plant1 {
+    animation-iteration-count: infinite;
+    font-size: 4em;
+    color: rgb(212, 32, 32);
+    animation-duration: 1s;
+    animation-name: heartbeat;
+    animation-play-state: paused;
+
+}
+
+.plant1:hover {
+    animation-play-state: running;
+}
+
+@keyframes heartbeat {
+    15% {
+      transform: scale(1.2);
+    }
+    30% {
+      transform: scale(1);
+    }
+    45% {
+        transform: scale(1.2);
+    }
+    60% {
+      transform: scale(1);
+    }
+}
+
+.plant2 {
+    animation-iteration-count: infinite;
+    font-size: 4em;
+    color: rgb(212, 32, 32);
+    animation-duration: 1s;
+    animation-name: heartbeat;
+    animation-play-state: paused;
+
+}
+
+.plant2:hover {
+    animation-play-state: running;
+}
+
+@keyframes heartbeat {
+    15% {
+      transform: scale(1.2);
+    }
+    30% {
+      transform: scale(1);
+    }
+    45% {
+        transform: scale(1.2);
+    }
+    60% {
+      transform: scale(1);
+    }
+}
+
+.plant3 {
+    animation-iteration-count: infinite;
+    font-size: 4em;
+    color: rgb(212, 32, 32);
+    animation-duration: 1s;
+    animation-name: heartbeat;
+    animation-play-state: paused;
+
+}
+
+.plant3:hover {
+    animation-play-state: running;
+}
+
+@keyframes heartbeat {
+    15% {
+      transform: scale(1.2);
+    }
+    30% {
+      transform: scale(1);
+    }
+    45% {
+        transform: scale(1.2);
+    }
+    60% {
+      transform: scale(1);
+    }
+}
+
+.plant4 {
+    animation-iteration-count: infinite;
+    font-size: 4em;
+    color: rgb(212, 32, 32);
+    animation-duration: 1s;
+    animation-name: heartbeat;
+    animation-play-state: paused;
+
+}
+
+.plant4:hover {
+    animation-play-state: running;
+}
+
+@keyframes heartbeat {
+    15% {
+      transform: scale(1.2);
+    }
+    30% {
+      transform: scale(1);
+    }
+    45% {
+        transform: scale(1.2);
+    }
+    60% {
+      transform: scale(1);
+    }
+}
+
+.plant5 {
+    animation-iteration-count: infinite;
+    font-size: 4em;
+    color: rgb(212, 32, 32);
+    animation-duration: 1s;
+    animation-name: heartbeat;
+    animation-play-state: paused;
+
+}
+
+.plant5:hover {
+    animation-play-state: running;
+}
+
+@keyframes heartbeat {
+    15% {
+      transform: scale(1.2);
+    }
+    30% {
+      transform: scale(1);
+    }
+    45% {
+        transform: scale(1.2);
+    }
+    60% {
+      transform: scale(1);
+    }
+}
+
+.plant6 {
+    animation-iteration-count: infinite;
+    font-size: 4em;
+    color: rgb(212, 32, 32);
+    animation-duration: 1s;
+    animation-name: heartbeat;
+    animation-play-state: paused;
+
+}
+
+.plant6:hover {
+    animation-play-state: running;
+}
+
+@keyframes heartbeat {
+    15% {
+      transform: rotate(20deg);
+    }
+    30% {
+      transform: rotate(20deg);
+    }
+    45% {
+        transform: rotate(20deg);
+    }
+    60% {
+      transform: rotate(20deg);
+    }
 }
 

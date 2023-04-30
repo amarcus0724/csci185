@@ -16,43 +16,65 @@
         }
         .answers {
         display: grid;
-        grid-template-columns: repeat(2,6fr);
+        grid-template-columns: repeat(2,4fr);
         column-gap: 20px;
         row-gap: 20px;
-}
+        text-align: center;
+        }
+
 
         .answer {
         display: grid;
-        grid-template-columns: repeat(2,3fr);
-        border: 5px solid navy;
-        padding: 5px;
+        grid-template-columns: repeat(2,fr);
+        
+  
         font-size: 30px;
+        }
+        .button:active {
+          background-color: #800000;
+        }
+        button {
+          
+          background-color: #480CA8;
+          color: white;
+          font-size: 40px;
+          text-decoration: none;
+          
+          padding: 10px;
+          width: 700px;
+          height: 150px;
+          
+        }
         
         
-}
+        
+        
+        
+
 
         
     </style>
     </head>
     <body>
     <h1>
-       1. Click Yes 
+        Click Yes 
     </h1> 
     <div class="answers">
       <section class="answer" onclick="showMessage()">
-        <p>not this one</p>
+        <p><button type="button">NOT THIS ONE</button></p>
       </section>  
 
       <section class="answer" onclick="showMessage()">
-        <p>other one</p>
+        <p><button type="button">OTHER ONE</button></p>
       </section>
 
       <section class="answer" onclick="showMessage()">
-        <p>nope</p>
+        <p><button type="button">NOPE</button></p>
       </section>  
 
       <section class="answer">
-        <p> <a href="plants.html"> yes </a> </p>
+        <p>  <a href="plants.html"><button class="button" type="button">YES</button></a>
+         </p>
       </section>  
 
      
